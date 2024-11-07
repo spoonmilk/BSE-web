@@ -9,15 +9,15 @@ function Home() {
       <Navbar />
       <div className="side-by-side">
         <div className="intro-text">
-          <h1>Welcome to Brown Space Engineering!</h1>
-          <p>
+          <div className="title-text">
+            <h1>Welcome to Brown Space Engineering!</h1>
+          </div>
+          <p className="body-text">
             Explore all that the most successful space engineering club
-            has to offer!
+            has to offer! Here is where innovation is at its finest.
           </p>
         </div>
-      </div>
-      <div className="globe-container">
-        <GlobeAndStars/>
+          <GlobeAndStars/>
       </div>
     </ThemeProvider>
   );
