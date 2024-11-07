@@ -28,16 +28,33 @@ const routeList: RouteProps[] = [
     label: "Home"
   },
   {
-    href: "#nav1",
-    label: "Nav1",
+    href: "/projects",
+    label: "Projects",
   },
   {
-    href: "#nav2",
-    label: "Nav2",
+    href: "/subgroups",
+    label: "Subgroups",
   },
   {
-    href: "#nav3",
-    label: "Nav3",
+    href: "/members",
+    label: "Mailing List",
+  },
+  {
+    href: "/sponsors",
+    label: "Sponsors",
+  },
+
+  {
+    href: "/donations",
+    label: "Donations",
+  },
+  {
+    href: "/mailinglsit",
+    label: "Mailing List",
+  },
+  {
+    href: "/contact",
+    label: "Contact",
   },
 ];
 
@@ -58,7 +75,7 @@ export const Navbar = () => {
                     <Logo/>
                   </a>
                 </NavigationMenuItem>
-                <NavigationMenuItem className="font-bold flex">
+                {/* <NavigationMenuItem className="font-bold flex">
                   <a
                     rel="noreferrer noopener"
                     href="/"
@@ -66,7 +83,7 @@ export const Navbar = () => {
                   >
                     BSE
                   </a>
-                </NavigationMenuItem>
+                </NavigationMenuItem> */}
               </div>
             </div>
 
