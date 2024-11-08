@@ -7,7 +7,18 @@ function Home() {
   return (
     <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">  
       <Navbar />
-      <GlobeAndStars/>
+      <div className="side-by-side">
+        <div className="intro-text">
+          <div className="title-text">
+            <h1>Welcome to Brown Space Engineering!</h1>
+          </div>
+          <p className="body-text">
+            Explore all that the most successful space engineering club
+            has to offer! Here is where innovation is at its finest.
+          </p>
+        </div>
+          <GlobeAndStars/>
+      </div>
     </ThemeProvider>
   );
 }
