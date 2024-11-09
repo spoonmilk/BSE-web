@@ -78,15 +78,15 @@
 
 .title-text {
   font-weight: bold;
-  font-size: 3vw;
-  line-height: 3.5vw;
+  font-size: 8vw;
+  line-height: 8vw;
   padding-bottom: 1.5vw;
 }
 
-.body-text {
+/* .body-text {
   font-size: 1.5vw;
   line-height: 2vw;
-}
+} */
 
 .side-by-side {
   display: flex;
