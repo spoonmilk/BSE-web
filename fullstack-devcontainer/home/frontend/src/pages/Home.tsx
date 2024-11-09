@@ -8,9 +8,12 @@ function Home() {
     <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">  
       <Navbar />
       <div className="side-by-side">
-        <div className="intro-text">
+        <div className="welcome">
           <div className="title-text">
             <h1>Brown<br />Space<br />Engineering</h1>
+          </div>
+          <div className="welcome-button">
+            <button>HELlO</button>
           </div>
         </div>
           <GlobeAndStars/>
