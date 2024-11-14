@@ -7,11 +7,17 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import { ThemeProvider } from './components/theme-provider.tsx';
+import Subgroup from './pages/subgroup/Subgroup.tsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />
+  },
+  
+  {
+    path: "/subgroup",
+    element: <Subgroup />
   },
 ]);
 

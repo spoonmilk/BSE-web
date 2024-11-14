@@ -32,12 +32,12 @@ const routeList: RouteProps[] = [
     label: "Projects",
   },
   {
-    href: "/subgroups",
+    href: "/subgroup",
     label: "Subgroups",
   },
   {
     href: "/members",
-    label: "Mailing List",
+    label: "Members",
   },
   {
     href: "/sponsors",
