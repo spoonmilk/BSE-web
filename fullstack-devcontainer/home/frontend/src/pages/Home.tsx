@@ -8,14 +8,14 @@ function Home() {
     <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">  
       <Navbar />
       <div className="side-by-side">
-        <div className="intro-text">
+        <div className="welcome">
           <div className="title-text">
-            <h1>Welcome to Brown Space Engineering!</h1>
+            <h1>Brown<br />Space<br />Engineering</h1>
           </div>
-          <p className="body-text">
-            Explore all that the most successful space engineering club
-            has to offer! Here is where innovation is at its finest.
-          </p>
+          <div className="welcome-buttons">
+            <button className="join-button">Join BSE</button>
+            <button className="contact-button">Contact Us</button>
+          </div>
         </div>
           <GlobeAndStars/>
       </div>
