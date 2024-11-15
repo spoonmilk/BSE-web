@@ -150,3 +150,56 @@ npm run dev
 git checkout -b
 git checkout
 exit
+ls
+cd frontend/
+ls
+npm run dev
+cd frontend/
+npm  run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+npm run dev
+ls
+cd frontend/
+ls
+npm run dev
+npm install --save react-horizontal-scrolling-menu@7.1.1
+npm fund
+q
+exit
+ls
+cd frontend/
+npm run dev
+npm run dev
+cd ..
+ls
+cd ..
+git checkout
+ls
+ls
+cd ..
+ls
+git checkout
+exit
