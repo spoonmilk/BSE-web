@@ -75,3 +75,66 @@
     @apply bg-background text-foreground;
   }
 }
+
+.title-text {
+  font-weight: bold;
+  font-size: 15vh;
+  line-height: 17vh;
+  padding-bottom: 1.5vw;
+}
+
+/* .body-text {
+  font-size: 1.5vw;
+  line-height: 2vw;
+} */
+
+.side-by-side {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  padding-left: 3vh;
+  height: 90vh;
+}
+
+.welcome {
+  padding-top: 5vh;
+  width: 100%;
+  height: 100%;
+}
+
+.welcome-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10vh;
+  padding-left: 10vh;
+  padding-top: 2vh;
+  align-items: center;
+}
+
+.join-button {
+  color: rgba(255, 255, 255, 0.85);
+  padding: 1vh 1vw;
+  background-color: #07223e; /* Set default color */
+  border-radius: 1vh;
+  border-width: 0.1vh;
+  border-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0vw 0vh 1vh 0.5vh rgba(255, 255, 255, 0.1);
+  font-size: 2vw;
+}
+
+.join-button:hover {
+  background-color: #092e55;
+  box-shadow: 0vw 0vh 1vh 0.5vh rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.contact-button {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 2vw;
+}
+
+.contact-button:hover {
+  color: rgba(255, 255, 255, 0.95);
+}

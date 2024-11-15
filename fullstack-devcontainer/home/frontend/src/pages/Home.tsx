@@ -7,7 +7,18 @@ function Home() {
   return (
     <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">  
       <Navbar />
-      <GlobeAndStars/>
+      <div className="side-by-side">
+        <div className="welcome">
+          <div className="title-text">
+            <h1>Brown<br />Space<br />Engineering</h1>
+          </div>
+          <div className="welcome-buttons">
+            <button className="join-button">Join BSE</button>
+            <button className="contact-button">Contact Us</button>
+          </div>
+        </div>
+          <GlobeAndStars/>
+      </div>
     </ThemeProvider>
   );
 }
