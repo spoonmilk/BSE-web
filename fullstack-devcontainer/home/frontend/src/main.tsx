@@ -7,11 +7,16 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import { ThemeProvider } from './components/theme-provider.tsx';
+import About from './pages/About.tsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />
+  },
+  {
+    path: "/about",
+    element: <About />
   },
 ]);
 
