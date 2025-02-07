@@ -6,13 +6,13 @@ const Logo: React.FC = () => {
   };
 
   const logoImageStyle: React.CSSProperties = {
-    width: '126px', // Adjust the width as needed
+    width: '125px', // Adjust the width as needed
     height: 'auto' // Maintain aspect ratio
   };
 
   return (
     <div style={logoStyle}>
-      <img src="/BSE_logo_light.png" alt="Logo" style={logoImageStyle} />
+      <img src="/logo.png" alt="Logo" style={logoImageStyle} />
     </div>
   );
 }

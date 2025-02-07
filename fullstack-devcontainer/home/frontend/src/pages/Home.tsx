@@ -1,25 +1,18 @@
-import { Navbar } from "@/components/hero/navbar";
-import "./Home.css";
-import { ThemeProvider } from "@/components/theme-provider";
-import GlobeAndStars from "@/components/hero/globe-wrapper";
+import { Navbar } from "@/components/navbar";
+import { Services } from "@/components/services";
+import { Footer } from "@/components/footer";
+import { About } from "@/components/about";
 
 function Home() {
   return (
-    <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">  
+    <div className="flex flex-col min-h-screen z-30">
       <Navbar />
-      <div className="side-by-side">
-        <div className="welcome">
-          <div className="title-text">
-            <h1>Brown<br />Space<br />Engineering</h1>
-          </div>
-          <div className="welcome-buttons">
-            <button className="join-button">Join BSE</button>
-            <button className="contact-button">Contact Us</button>
-          </div>
-        </div>
-          <GlobeAndStars/>
+      <Services/>
+      <About/>
+      <div className="mt-12">
+        <Footer/>
       </div>
-    </ThemeProvider>
+    </div>
   );
 }
 
