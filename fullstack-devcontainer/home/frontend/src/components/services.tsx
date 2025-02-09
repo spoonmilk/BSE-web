@@ -12,13 +12,13 @@ interface ServiceProps {
 
 const serviceList: ServiceProps[] = [
   {
-    title: "Cost Effective",
+    title: "Open Source",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
     icon: <img src="/cost.png" className="w-[50px] h-auto opacity" />,
   },
   {
-    title: "Team Based",
+    title: "Collaborative",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
     icon: <img src="/team.png" className="w-[50px] h-auto" />,
@@ -86,7 +86,7 @@ export const Services = () => {
           transition={{ type: "spring", stiffness: 200, duration: 2 }}
         >
           <h2 className="text-3xl md:text-4xl font-bold">
-            Our Approach to Space Engineering
+            Brown University's Largest Undergraduate Engineering Club
           </h2>
           <p className="text-muted-foreground text-xl mt-4 mb-8">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna libero, pretium congue tincidunt eu, sodales eu tortor. Morbi malesuada dapibus ante eu sodales. Ut cursus erat sed auctor vestibulum. Vivamus facilisis metus nunc. Etiam erat lectus, dapibus id sollicitudin vitae, dapibus eu leo.

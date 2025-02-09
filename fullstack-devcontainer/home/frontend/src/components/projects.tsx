@@ -12,40 +12,27 @@ interface ArticleProps {
 
 const articleList: ArticleProps[] = [
   {
-    title: "2024-2025",
+    title: "PVDX",
     summary:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
     imageSrc: "/2024.png",
     link: "https://en.wikipedia.org/wiki/EQUiSat",
   },
   {
-    title: "2023-2024",
+    title: "EQUiSat",
     summary:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
-    imageSrc: "/2023.png",
+    imageSrc: "/2024.png",
     link: "https://en.wikipedia.org/wiki/EQUiSat",
   },
   {
-    title: "2022-2023",
+    title: "SBUDNIC",
     summary:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
-    imageSrc: "/2022.png",
+    imageSrc: "/2024.png",
     link: "https://en.wikipedia.org/wiki/EQUiSat",
   },
-  {
-    title: "2021-2022",
-    summary:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
-    imageSrc: "/2021.png",
-    link: "https://en.wikipedia.org/wiki/EQUiSat",
-  },
-  {
-    title: "2020-2021",
-    summary:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
-    imageSrc: "/2020.png",
-    link: "https://en.wikipedia.org/wiki/EQUiSat",
-  },
+  
 ];
 
 export const Projects = () => {
